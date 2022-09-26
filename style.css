@@ -155,3 +155,22 @@ hr{
 .punti-icon{
     color: #0061ff;
 }
+.choice{
+    border: solid 1px #d0d0d3;
+}
+.last-choice{
+    padding: 25px 20px;
+    height: 200px;
+    border: solid 1px #d0d0d3;
+    border-top: none;
+}
+.left-side{
+    width: 70%;
+}
+.right-side{
+    width: 30%;
+}
+.last-choice-name{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
