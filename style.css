@@ -201,3 +201,21 @@ hr{
     cursor: pointer;
     margin: 20px 0px;
 }
+/*--------------
+-sezione operazioni possibili
+------------*/
+.operation-row{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.operation-column{
+    width: calc(100%/3 - 20px);
+    padding-bottom: 70px;
+}
+.operation-img{
+    width: 100%;
+}
+.op-title{
+    margin-bottom: 25px;
+}
