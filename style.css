@@ -24,6 +24,11 @@
     max-width: 1100px;
     margin: auto;
 }
+.container-small{
+    max-width: 920px;
+    margin: auto;
+    height: 1000px;
+}
 /*------
 ----header--
 ------*/
@@ -63,6 +68,7 @@ li{
     background-color: #b4d0e7;
     padding-top: 120px;
     height: 690px;
+    margin-bottom: 150px;
 }
 .big-slogan{
     font-size: 70px;
@@ -84,4 +90,64 @@ li{
 }
 .right-hero{
     width: calc(100% - 100%/3);
+}
+.fatturazione{
+    padding-right: 30px;
+}
+.plan-title{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.plan-row{
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.plan-column{
+    width: calc(100%/3 - 20px);
+}
+.choice{
+    text-align: center;
+    border: solid 1px #d0d0d3;
+    padding: 10px 0px;
+}
+.choice-name{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.plan-description{
+    padding: 25px 20px;
+    border: solid 1px #d0d0d3;
+    border-top: none;
+}
+.price{
+    margin-bottom: 12px;
+}
+.payment{
+    padding-bottom: 35px;
+}
+.feature-icon{
+    width:8%
+}
+.feature-description{
+    width: 92%;
+}
+.specification{
+    margin-bottom: 20px;
+}
+.plan-button{
+    color: white;
+    background-color: #0061ff;
+    border: none;
+    padding: 10px 0px;
+    width: 100%;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+hr{
+    margin: 30px 0px; 
+    width: 25%;
+    color: #d0d0d3;
+}
+.punti{
+    margin-bottom: 20px;
 }
