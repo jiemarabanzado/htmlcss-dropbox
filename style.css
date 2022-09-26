@@ -1,3 +1,45 @@
-body{
-    background-color: pink;
+/*--------
+---reset-
+----*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*------------
+---common---
+-----------*/
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.blue-button{
+    color: white;
+    background-color: #0061ff;
+    border: none;
+    padding: 5px 15px;
+}
+
+/*------
+----header--
+------*/
+.nav{
+    list-style: none;
+}
+header{
+    padding: 15px;
+    
+}
+.left-header{
+    width: 30%;
+}
+
+li{
+   padding: 0px 15px;
+   padding-top: 5px;
+   vertical-align: middle;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
 }
