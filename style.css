@@ -316,3 +316,15 @@ hr{
     text-align: center;
     padding-top: 90px;
 }
+.prova{
+    background-color: #b4d0e7;
+    padding: 70px;
+}
+.prova-gratuita{
+    justify-content: space-between;
+}
+.trial-button{
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
