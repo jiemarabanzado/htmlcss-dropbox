@@ -27,7 +27,7 @@
 .container-small{
     max-width: 920px;
     margin: auto;
-    height: 1000px;
+
 }
 /*------
 ----header--
@@ -160,9 +160,9 @@ hr{
 }
 .last-choice{
     padding: 25px 20px;
-    height: 200px;
     border: solid 1px #d0d0d3;
     border-top: none;
+    margin-bottom: 120px;
 }
 .left-side{
     width: 70%;
@@ -173,4 +173,31 @@ hr{
 .last-choice-name{
     font-size: 20px;
     margin-bottom: 20px;
+}
+/*---------
+-----sezione entra in contatto
+---------*/
+.contatto{
+    margin-bottom: 110px;
+}
+.left-contact{
+    width:60%;
+}
+.contact-img{
+    width: 100%;
+}
+.right-contact{
+    width: 40%;
+    padding: 40px 30px;
+}
+.contact-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contact-button{
+    border: solid 1px ;
+    background-color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 20px 0px;
 }
