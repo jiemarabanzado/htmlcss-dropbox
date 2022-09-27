@@ -367,7 +367,8 @@ header{
 /*-------------
 ----faq--
 ---*/
-.faq{
+
+/*.faq{
     margin-bottom: 150px;
 }
 .domanda{
@@ -376,6 +377,36 @@ header{
 }
 .left-faq{
     width: 80%;
+}*/
+.faq{
+    margin-bottom: 150px;
+}
+.domanda{
+    list-style: none;       
+}
+.domanda label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.domanda label .accordion-icon{
+    transform: rotate(180deg);   
+}
+.faq-list label + input[type="radio"]{
+    display: none;
+}
+.faq-list .risposta{
+    padding: 0px 10px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.faq-list label + input[type="radio"]:checked + .risposta{
+    max-height: 70px;
+}
+.faq-list label + input[type="radio"]:checked + .accordion-icon{
+    transform: rotate(360deg);
 }
 /*------
 --footer---
