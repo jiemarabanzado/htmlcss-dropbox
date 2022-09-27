@@ -91,8 +91,42 @@ header{
 .right-hero{
     width: calc(100% - 100%/3);
 }
+/*--------------
+---custom radio input
+---------------*/
+.left-radio{
+    width: 30%;
+}
 .fatturazione{
-    padding-right: 30px;
+    padding-right: 35px;
+    padding-left: 5px;
+}
+.custom-radio-btn{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d0d0d3;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.custom-radio-btn .checkmark{
+    width:calc(100% - 6px);
+    height:calc(100% - 6px);
+    border-radius: 50%;
+    background-color: black;
+    display: none;
+}
+.custom-radio-btn input:checked + .custom-radio-btn{
+    background-color: #0061ff;
+    border: none;
+}
+.custom-radio-btn input:checked + .checkmark{
+    display: inline-block;
+}
+
+.custom-radio-btn input{
+    display: none;
 }
 .plan-title{
     font-size: 35px;
