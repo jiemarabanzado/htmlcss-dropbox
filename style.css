@@ -47,6 +47,12 @@ header{
 .logo-small{
     height: 25px;
 }
+.left-header li:hover{
+    background-color: rgba(208, 208, 211, 0.1);
+}
+.right-header li a:hover{
+    background-color: rgba(208, 208, 211, 0.1);
+}
 .left-header{
     width: 30%;
 }
@@ -112,12 +118,8 @@ header{
     width:calc(100% - 6px);
     height:calc(100% - 6px);
     border-radius: 50%;
-    background-color: black;
-    display: none;
-}
-.custom-radio-btn input:checked + .custom-radio-btn{
     background-color: #0061ff;
-    border: none;
+    display: none;
 }
 .custom-radio-btn input:checked + .checkmark{
     display: inline-block;
@@ -365,22 +367,15 @@ header{
 /*-------------
 ----faq--
 ---*/
-
-/*.faq{
-    margin-bottom: 150px;
-}
-.domanda{
-    margin: 30px 0px;
-    justify-content: space-between;
-}
-.left-faq{
-    width: 80%;
-}*/
 .faq{
     margin-bottom: 150px;
 }
+.faq-list{
+    border-top: 2px solid #d0d0d3;
+}
 .domanda{
-    list-style: none;       
+    list-style: none; 
+    border-bottom: 2px solid #d0d0d3;      
 }
 .domanda label{
     padding: 10px;
@@ -391,7 +386,7 @@ header{
 .domanda label .accordion-icon{
     transform: rotate(180deg);   
 }
-.faq-list label + input[type="radio"]{
+.faq-list label + input[type="checkbox"]{
     display: none;
 }
 .faq-list .risposta{
@@ -400,10 +395,10 @@ header{
     overflow: hidden;
     transition: max-height 0.5s;
 }
-.faq-list label + input[type="radio"]:checked + .risposta{
+.faq-list label + input[type="checkbox"]:checked + .risposta{
     max-height: 70px;
 }
-.faq-list label + input[type="radio"]:checked + .accordion-icon{
+.faq-list label + input[type="checkbox"]:checked + .accordion-icon{
     transform: rotate(360deg);
 }
 /*------
