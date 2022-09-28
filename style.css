@@ -379,7 +379,7 @@ header{
     border-bottom: 2px solid #d0d0d3;      
 }
 .domanda label{
-    padding: 10px;
+    padding: 25px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -397,7 +397,7 @@ header{
     transition: max-height 0.5s;
 }
 .faq-list label + input[type="checkbox"]:checked + .risposta{
-    max-height: 70px;
+    max-height: 90px;
 }
 .faq-list label + input[type="checkbox"]:checked + .accordion-icon{
     transform: rotate(360deg);
