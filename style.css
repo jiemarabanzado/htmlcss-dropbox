@@ -40,9 +40,10 @@
 header{
     padding: 15px; 
     position: fixed;
-    background-color: white;
+    background-color: rgba(255,255,255,0.9);
     left: 0px;
     right: 0px; 
+    z-index: 1;
 }
 .logo-small{
     height: 25px;
